@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oswald:wght@200&display=swap');
+:root{
+	--color-swape: #fffff;
+	--color-features-get: #101117;
+	--color-features: #121520;
+	--color-redes: #151721;
+	--color-footer: #040406;
+	--color-naranja: #edb44d;
+	--color-gris: #dbdce4;
+	--color-texto-footer: #373946;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	color: #fff;
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+	background-color: var(--color-naranja) !important;
+}
+.header-area.sticky .navbar-default{
+	background-color: #000;
+}
+
+.header-area.sticky .navbar-light .navbar-nav .nav-link{
+	color: var(--color-texto-footer);
+}
+#winner{
+	font-family: 'Oswald', sans-serif;
+	font-weight: lighter;
+	padding-bottom: 5%;
+}
+#home {
+	color: var(--color-naranja);
+}
+
+#swape h1 {
+	font-size: 60px;
+	font-weight: 700;
+}
+
+#featuresdos h4 {
+	font-weight:  700
+}
+
+#features h4 {
+	font-weight:  700
+}
+
+#features h2 {
+	font-size: 50px;
+	font-weight: 600;
+}
+
+#gem {
+	text-align: center;
+	font-size: 45px;
+}
+
+#iconsizquierda {
+	font-size: 40px
+}
+
+#getiton {
+	text-align: center;
+}
+
+#iconsizquierda2 {
+	font-size: 40px
+}
+
+#rowfeatures i{
+	font-size: 25px;
+	color: #fff;
+	background: var(--color-naranja);
+    padding:20px;
+    border-radius: 100%;
+	text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Oswald', sans-serif;
+}
+.circulo{padding: 10%; 
+	align-items: center;}
+#whatyougettext i{
+	text-align: center;
+	font-size: 50px;
+}
+
+#whatyougetrows i {
+	font-size: 30px;
+}
+p{
+	line-height: 25px;
+	font-size: 30px;
+	padding: 5%;
+}
+
+i {
+	color: var(--color-naranja);
+}
+
+.btn-quote{
+	background-color: var(--color-texto-footer);
+	border-radius: 19px;
+	padding: 10px 3px !important;
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase; 
+	width: 15%;
+	
+}
+
+#boton {
+	color: #fff;
+}
+
+.btn-light{
+	background-color: transparent;
+	border-radius: 19px !important;
+	border-color: #fff; 
+	border-width: thin;
+	padding: 10px 8px 8px !important;
+	font-size: 14px;
+	color: #fff;
+	text-transform: uppercase;
+	width: 50%;
+	text-align: center;
+	
+}
+
+.overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.85);
+}
+
+#whatyouget h1 {
+	font-weight: bold;
+}
+
+#services h2{
+	font-weight: 600;
+}
+
+#contact h2 {
+	font-weight: 600;
+}
+
+#features {
+	background-color: var(--color-features-get);
+	text-align: center;
+}
+
+#rowfeatures {
+	text-align: left;
+}
+
+#featuresdos {
+	background-image: url("../img/mambu-case-bg.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: var(--color-features);
+	padding: 10%;
+	align-content: center;
+
+}
+
+#swappyellow {
+	color: var(--color-naranja);
+	font-weight: 700;
+}
+
+#whatyougettext {
+	text-align: center;
+}
+
+#columnaizq{
+	text-align: right
+}
+
+#slides h2{
+	font-weight: bold;
+}
+.btn {
+	border: 0;
+	border-width: thin;
+	border-radius: 19px;
+	text-align: center;
+}
+
+.btn-primary{
+	background-color: var(--color-amarillo);
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 300; 
+	font-spacing: 1px;
+}
+
+.section{
+	padding: 8% 0;
+
+}
+#swape {
+	background-image: url("../img/hero-bg.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+footer{
+	background-color: #333333;
+	color: #373946;
+	padding-top: 3%;
+	text-align: center;
+	padding-bottom: 1%;
+}
+.icono{
+	color: #FFFFFF;
+	font-size: 40px;
+}
+.linea{
+	padding-top: 1%;
+	padding-bottom: 3%;
+}
